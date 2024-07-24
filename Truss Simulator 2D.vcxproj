@@ -148,21 +148,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\OneDrive\Desktop\vscode c++\Truss Simulator 2D\glad.c" />
+    <ClCompile Include="EBO.cpp" />
     <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ShaderClass.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EBO.h" />
     <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="VBO.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ShaderClass.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="Vertex.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="default.vert" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="default.frag" />
+    <None Include="Shaders\default.frag" />
+    <None Include="Shaders\default.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
